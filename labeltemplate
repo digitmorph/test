@@ -1,0 +1,93 @@
+{
+  "width": 40,
+  "height": 500,
+  "actualHeight": 25,
+  "barcodeHeight": 100,
+  "blankBtwnLines": 5,
+  "blankBtwnBarcode": 14,
+  "multiplier": 4,
+  "isRoll": true,
+  "isLabelPrinter": true,
+  "inv_width": 100,
+  "areas": [
+    {
+      "rpp": 0,
+      "cp": 0,
+      "pg": 0,
+      "rr": 0,
+      "bs": "bs.data.stracture[0].Products[0].ProdName",
+      "struct": [
+        {
+          "te": "[nameRow]",
+          "wi": 80,
+          "ta": "center",
+          "fs": 9,
+          "fw": "normal",
+          "he": 18,
+          "pl": 0,
+          "pr": 0,
+          "mc": 20,
+          "y": 1,
+          "ph": ["nameRow"],
+          "ft": "st",
+          "ex": null
+        }
+      ]
+    },
+    {
+      "rpp": 0,
+      "cp": 0,
+      "pg": 0,
+      "rr": 0,
+      "bs": "bs.data.stracture[0].Products",
+      "struct": [
+        {
+          "te": "[ProdBarcode]",
+          "wi": 100,
+          "ta": "center",
+          "fs": 9,
+          "fw": "normal",
+          "he": 18,
+          "pl": 0,
+          "pr": 0,
+          "mc": 20,
+          "y": 2,
+          "ph": ["ProdBarcode"],
+          "ft": "bar",
+          "ex": null,
+          "barw": 3
+        },
+        {
+          "te": "TIMH:[ProdPrice]",
+          "wi": 100,
+          "ta": "center",
+          "fs": 9,
+          "fw": "normal",
+          "he": 18,
+          "pl": 0,
+          "pr": 0,
+          "mc": 20,
+          "y": 3,
+          "ph": ["ProdPrice"],
+          "ft": "st",
+          "ex": null
+        },
+        {
+          "te": "[ProdExtraInfo]",
+          "wi": 100,
+          "ta": "center",
+          "fs": 9,
+          "fw": "normal",
+          "he": 18,
+          "pl": 0,
+          "pr": 0,
+          "mc": 20,
+          "y": 4,
+          "ph": ["ProdExtraInfo"],
+          "ft": "st",
+          "ex": null
+        }
+      ]
+    }
+  ]
+}
